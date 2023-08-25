@@ -1,0 +1,104 @@
+body {
+    background: #1B1924;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    user-select: none;
+}
+
+#hero {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#freddie-img {
+    width: 90px;
+    height: 90px;
+}
+
+#input-field {
+    width: 320px;
+    padding: 12px 16px 120px 12px;
+    display: block;
+    box-sizing: border-box;
+    margin: 12px auto;
+    border-radius: 8px;
+    background: #444059;
+    border: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+#direction-inputs {
+    margin: 9px auto;
+    max-width: 320px;
+    display: flex;  
+    gap: 10px;
+}
+
+#direction-inputs input {
+    width: 150px;
+    height: 40px;
+    color: #FFFFFF;
+    flex-grow: 1;
+    border: none;
+    border-radius: 8px;
+    background: #444059;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    text-align: center;
+}
+
+#publish-btn {
+    width: 320px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #28A9F1;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#messages {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#messages div {
+    background-color: #FFFFFF;
+    color: #1B1924;
+    padding: 5px 16px;
+    margin: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+span {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#like {
+    color: transparent;
+    text-shadow: 0 0 0 #000000;
+    font-size: 16px;
+}
+
+#messages p {
+    margin: 8px 0;
+}
+
