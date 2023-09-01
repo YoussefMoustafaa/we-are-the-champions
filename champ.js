@@ -82,7 +82,7 @@ function addEndorsement(item) {
 
     newEndorsement.addEventListener("click", function() {
         update(exactLocationOfEndorsement, {
-            likes: likes++
+            likes: ++likes
         })
     })
     
